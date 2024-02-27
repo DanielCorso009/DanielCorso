@@ -9,4 +9,16 @@
     --extra-color2: #2FC6E0;
     --extra-color3: #F9F4EE;
  }
- 
+ *{
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--text-color);
+ }
+ html, body{
+    background-color: var(--background-color);
+ }
+ .list-of-projects{
+    display: flex;
+    max-width: 800px;
+    max-height: 400px;
+    flex-direction: row;
+ }
