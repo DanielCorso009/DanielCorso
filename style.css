@@ -21,4 +21,25 @@
     max-width: 800px;
     max-height: 400px;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
  }
+.navbar-and-header{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--primary-color);
+    justify-content: center;
+    align-items: center;
+}
+.navbar-and-header > *{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.navbar a{
+    padding: 10px;
+    text-decoration: none;
+    background-color: var(--secondary-color);
+}
+.navbar{
+    float: right;
+}
